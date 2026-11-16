@@ -120,6 +120,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-heading);
 }
 
+.page-content > div {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+  max-width: 85rem;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.main {
+  flex: 2.065;
+  min-width: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.deco-border {
+  border: none;
+  height: 20px;
+  background-image: url("../assets/cute-gifs/clover1.gif");
+  background-repeat: repeat-x;
+  background-position: center;
+  margin: 1em 0;
+}
+
 .content {
   margin-top: 0;
   background-color: var(--background-color);
