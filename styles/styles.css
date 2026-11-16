@@ -10,6 +10,25 @@ JetBrains/ShareTech Mono = code snippets and technical content
 */
 
 
+
+/* --- VARIABLES --- */
+
+:root {
+  --primary-color: #52754a;
+  --secondary-color: #7b6c51;
+  --accent-color: #ed8d8d88;
+  --accent-color-text: #854e4e;
+  --highlight-color: #c7eb94c7;
+  --text-color: #406039;
+  --background-color: #d5e7b8;
+  --border-color: #7b6c51;
+  --font-family-body: 'Figtree', sans-serif;
+  --font-family-heading: 'Shantell Sans', sans-serif;
+  --font-family-code: 'VT323', monospace;
+  --font-family-mono: 'JetBrains Mono', monospace;
+}
+
+
 /* --- STYLING --- */
 
 body {
@@ -23,16 +42,16 @@ body {
   min-height: 100vh;
   padding: 140px 1rem 1rem;
   box-sizing: border-box;
-  font-family: 'Figtree', sans-serif;
+  font-family: var(--font-family-body);
   font-size: 1.2em;
   font-weight: 500;
-  color: #52754a;
+  color: var(--primary-color);
   margin: 0;
 }
 
 ::selection {
-  background-color: #c7eb94c7; /* change highlight color */
-  color: #406039; /* change text color */
+  background-color: var(--accent-color); /* change highlight color */
+  color: var(--accent-color-text); /* change text color */
 }
 
 nav {
@@ -50,19 +69,19 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #52754a;
+  color: var(--primary-color);
   margin-left: 2em;
 }
 
 .logo-link img {
   height: 50px;
   border-radius: 5px;
-  border: 2px solid #7b6c51;
+  border: 2px solid var(--border-color);
 }
 
 .logo-link h1 {
   margin-left: 0.4em;
-  font-family: 'Shantell Sans', sans-serif;
+  font-family: var(--font-family-heading);
 }
 
 .nav-links {
@@ -72,19 +91,19 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: #52754a;
+  color: var(--primary-color);
   margin: 0 1em;
   padding: 0.3em 0.6em;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
   font-family: "VT323", monospace;
-  font-size: 1.3em;
+  font-size: 1.4em;
   letter-spacing: 0.05em;
 }
 
 .nav-links a:hover {
-  background-color: #ed8d8d88;
-  color: #854e4e;
+  background-color: var(--accent-color);
+  color: var(--accent-color-text);
 }
 
 .nav-links li {
@@ -95,8 +114,8 @@ nav {
 footer {
   max-width: auto;
   margin: 1em 0 0 0;
-  background-color: #d5e7b8;
-  border: 3px solid #7b6c51;
+  background-color: var(--background-color);
+  border: 3px solid var(--border-color);
   border-radius: 10px;
   padding: 0.5em;
   
@@ -110,6 +129,6 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: #52754a;
+  color: var(--primary-color);
   font-weight: 600;
 }
