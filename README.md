@@ -16,8 +16,10 @@ heya! (˶ᵔᗜᵔ˶)ﾉﾞ
 i'm **myaokult**, and i'm making this website recreationally and totally on a whim.  
 (it's 7:24am, i haven't slept yet, and i just wanted to see this idea come to fruition lol. says a little about who i am, right?)
 
-that being said, this isn't a serious project. i'll work on it when i wanna work on it.  
+that being said, this isn't a serious project. i'll work on it when i wanna (and can.. it's been a while ;u;) work on it.  
 :3
+
+to see my website, click [here](https://myaokult.nekoweb.org)!
 
 P.S. as per the callout, do NOT use my code no matter what!
 
