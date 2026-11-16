@@ -1,9 +1,49 @@
-.main-content {
-  margin-top: 0;
-  background-color: #d5e7b8;
-  border: 3px solid #7b6c51;
-  border-radius: 10px;
-  padding: 1em;
-  min-width: 80%; 
-  width: auto;
+/* --- VARIABLES --- */
+
+:root {
+  --primary-color: #52754a;
+  --secondary-color: #7b6c51;
+  --accent-color: #ed8d8d88;
+  --accent-color-text: #854e4e;
+  --highlight-color: #c7eb94c7;
+  --text-color: #406039;
+  --background-color: #d5e7b8;
+  --border-color: #7b6c51;
+  --paper-color: #ebebeb;
+  --font-family-body: 'Figtree', sans-serif;
+  --font-family-heading: 'Shantell Sans', sans-serif;
+  --font-family-code: 'VT323', monospace;
+  --font-family-mono: 'JetBrains Mono', monospace;
+
+  /* scrollbar */
+  scrollbar-color: var(--secondary-color) var(--paper-color);
+}
+
+
+
+/* --- STYLING ---*/
+
+.page-content > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2.9em;
+}
+
+.main {
+  grid-column: 1;
+}
+
+.logs {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+}
+
+.log-section {
+  padding: 0.3em 0.3em 0.05em 0.3em;
+}
+
+.log {
+  height: 13em;
 }
